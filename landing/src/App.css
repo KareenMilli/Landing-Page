@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4; /* Background color for the entire screen */
+}
+
+
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: #f4f4f4; /* Background color for the entire screen */
+}
+
+.content-container {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #0066ff; /* Adjust to fit your page color */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding-right: 120px;
+  margin-left: 500px;
+  flex-grow: 1; /* Allow the menu to grow and center */
+}
+
+.menu-item {
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  font-size: 16px;
+  padding-right: 40px;
+  transition: color 0.3s, transform 0.3s, font-weight 0.3s;
+
+  &:hover {
+    color: #ffcc00; /* Bold color on hover */
+    transform: scale(1.2); /* Pop to the middle on hover */
+    font-weight: bold; /* Bold text on hover */
+  }
+}
+
+.logo {
+  max-width: 100px; /* Adjust the logo width */
+  height: auto;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* ... Your existing styles ... */
+
+.image-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #0066ff; /* Adjust to fit your page color */
+  padding: 20px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  animation: fadeInRight 2s ease-out; /* Apply the fadeInRight animation */
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  max-height: 100vh;
+  border-bottom-right-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* ... Your existing styles ... */
+
+
+.point {
+  color: white;
+  font-size: 25px;
+  font-style: italic;
+  margin-left: 2dvi;
+}
+
+.point h2 {
+  animation: fadeInRight 2s ease-out;
+}
+
+.point h2 span.i {
+  color: black;
+}
+.intro-box {
+  background-color: #f1f0f0; /* Light grey color */
+  color: #333; /* Text color */
+  padding: 20px;
+  border-radius: 10px; /* Border radius for rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin-left: 100px;
+  margin-bottom: 250px; 
+  box-shadow: #333;/* Adjust the width according to your design */
+}
+
+.intro-text {
+  font-size: 20px;
+  font-family: 'Arial', sans-serif; /* Choose a good font */
+  line-height: 1.5;
+}
