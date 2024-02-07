@@ -1,12 +1,16 @@
+@font-face {
+  font-family: 'Nunito';
+  src: url('https://example.com/fonts/Nunito.woff2') format('woff2');
+}
+
 body {
   display: flex;
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Nunito', sans-serif;
   background-color: #d7d8da; /* Background color for the entire screen */
 }
 
 .container {
-  font-family: 'Lato',;
   display: flex;
   height: 100vh;
   background-color: #d7d8da; /* Background color for the entire screen */
@@ -21,9 +25,9 @@ body {
 }
 
 .navbar {
-  background-color: #82ACAB; /* Adjust to fit your page color */
+  background-color: #82acab; /* Adjust to fit your page color */
   position: fixed;
- 
+
   top: 0;
   left: 0;
   width: 100%;
@@ -77,26 +81,14 @@ body {
   }
 }
 
-.image-container {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  background-color: #0B4B54; /* Adjust to fit your page color */
-  padding: 20px;
-  border-top-left-radius: 50%;
-  border-bottom-left-radius: 50%;
-  border-top: 20%;
-  overflow: hidden;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  animation: fadeInRight 2s ease-out; /* Apply the fadeInRight animation */
-}
-
 .image {
   max-width: 100%;
   height: auto;
+  margin-left: 290px;
+  margin-bottom: 150px;
   max-height: 100vh;
   border-bottom-right-radius: 50%;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  size: 60cm;
   animation: bounce 2s infinite ease alternate; /* Apply the bounce animation */
 }
 
@@ -119,7 +111,7 @@ body {
 }
 
 .intro-box {
-  background-color: #f1f0f0; /* Light grey color */
+  background-color: #b6b2b2; /* Light grey color */
   color: #333; /* Text color */
   padding: 20px;
   border-radius: 10px; /* Border radius for rounded corners */
@@ -144,10 +136,12 @@ body {
 .point h2 span.i {
   color: black;
 }
-
+.all{
+  font-family: 'Nunito', sans-serif;
+}
 .intro-text {
   font-size: 20px;
-  font-family: 'Arial', sans-serif; /* Choose a good font */
+  font-family: "Arial", sans-serif; /* Choose a good font */
   line-height: 1.5;
 }
 
@@ -170,10 +164,13 @@ body {
   transition: transform 0.3s ease-in-out;
 }
 .section1 {
+
+  font-size: 20px;
   text-align: center;
   height: 250px; /* Adjust the height as needed */
   width: 200px; /* Optionally adjust the width as needed */
   flex: 1;
+  color: #0b4b54;
   margin-top: 300px;
   padding: 15px; /* Optionally adjust the padding as needed */
   margin-left: 10px;
@@ -184,9 +181,8 @@ body {
   transition: transform 0.3s ease-in-out;
 }
 
-
 .section:hover {
-  background-color: #82ACAB; /* Bold color on hover */
+  background-color: #82acab; /* Bold color on hover */
   transform: translateY(-10px); /* Adjust the distance to pop up */
 }
 
@@ -215,21 +211,21 @@ body {
 
 .animated-text {
   opacity: 0; /* Start with opacity set to 0 */
-  transform: translateY(50px); /* Start with translateY set to move the text 50px down */
+  transform: translateY(
+    50px
+  ); /* Start with translateY set to move the text 50px down */
   transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition */
 }
 
 .animate-in {
   opacity: 1; /* Change opacity to 1 when the element becomes visible */
-  transform: translateY(0); /* Change translateY to 0 to move the text back to its original position */
+  transform: translateY(
+    0
+  ); /* Change translateY to 0 to move the text back to its original position */
   transition-delay: 0.5s; /* Delay the animation for 0.5s after it becomes visible */
 }
 .menu-item.active {
- 
-    color: #ffcc00; /* Bold color on hover */
-    transform: scale(1.2); /* Pop to the middle on hover */
-    font-weight: bold; /* Bold text on hover */
-  }
- 
-
-
+  color: #ffcc00; /* Bold color on hover */
+  transform: scale(1.2); /* Pop to the middle on hover */
+  font-weight: bold; /* Bold text on hover */
+}
