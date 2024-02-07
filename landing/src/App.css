@@ -6,6 +6,7 @@ body {
 }
 
 .container {
+  font-family: 'Lato',;
   display: flex;
   height: 100vh;
   background-color: #d7d8da; /* Background color for the entire screen */
@@ -168,6 +169,21 @@ body {
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease-in-out;
 }
+.section1 {
+  text-align: center;
+  height: 250px; /* Adjust the height as needed */
+  width: 200px; /* Optionally adjust the width as needed */
+  flex: 1;
+  margin-top: 300px;
+  padding: 15px; /* Optionally adjust the padding as needed */
+  margin-left: 10px;
+  margin-right: 45px;
+  background-color: #d7d8da; /* Adjust the background color as needed */
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
 
 .section:hover {
   background-color: #82ACAB; /* Bold color on hover */
@@ -208,3 +224,12 @@ body {
   transform: translateY(0); /* Change translateY to 0 to move the text back to its original position */
   transition-delay: 0.5s; /* Delay the animation for 0.5s after it becomes visible */
 }
+.menu-item.active {
+ 
+    color: #ffcc00; /* Bold color on hover */
+    transform: scale(1.2); /* Pop to the middle on hover */
+    font-weight: bold; /* Bold text on hover */
+  }
+ 
+
+
