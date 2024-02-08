@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-import About from "./Pages/About"; // Import the About component
 import "./App.css";
 
 // Define separate components for each page
