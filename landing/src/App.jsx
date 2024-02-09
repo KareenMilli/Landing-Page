@@ -42,9 +42,14 @@ const App = () => {
         </nav>
         <div className="section1">
           <div className="section-content">
-            <h2>Section 3</h2>
+            <h2>The best way to predict the future is to create it.</h2>
             <p>
-              Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Welcome to our management platform! We are delighted to welcome
+              you aboard. Prepare to embark on a journey of boundless
+              possibilities as you navigate through our landing page. Immerse
+              yourself and uncover a wealth of tools and resources that will
+              guide you towards achievement and success. In essence, get ready
+              to explore a world of opportunities that await you here.
             </p>
           </div>
         </div>
@@ -58,12 +63,15 @@ const App = () => {
           </div>
         </div>
       </div>
+     <div className="animated-text" id="about">
+          <h1>About</h1>
+         </div>
       <div className="sections-container">
         {/* Section 1 beside the image */}
         <div className="section">
           <div className="section-content">
-            <h2>Section 1</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h2>User Management</h2>
+            <p></p>
           </div>
         </div>
 
@@ -73,20 +81,55 @@ const App = () => {
         {/* Section 2 */}
         <div className="section">
           <div className="section-content">
-            <h2>Section 2</h2>
+            <h2>Dashboard</h2>
             <p>
-              Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              
             </p>
           </div>
         </div>
         {/* Section 2 */}
         <div className="section">
           <div className="section-content">
-            <h2>Section 3</h2>
+            <h2>Document Management</h2>
             <p>
-              Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            
             </p>
           </div>
+        </div>
+        <div className="section">
+          <div className="section-content">
+            <h2>Calender and Scheduling</h2>
+            <p>
+            
+            </p>
+          </div>
+        </div>
+          <div className="exception">
+        <div className="section">
+          <div className="section-content">
+            <h2 >Reporting and Analytics</h2>
+            <p>
+             
+            </p>
+          </div>
+        </div>
+      
+        <div className="section">
+          <div className="section-content">
+            <h2 >Security Features</h2>
+            <p>
+            
+            </p>
+          </div>
+        </div>
+        <div className="section">
+          <div className="section-content">
+            <h2 >Mobile Features</h2>
+            <p>
+            
+            </p>
+          </div>
+        </div>
         </div>
       </div>
       <div class="separator">
